@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html
+        layout:decorate="~{commons/layout}"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <title> Individual page title </title>
+    <meta content="Individual meta tag" name="description">
+</head>
+<body>
+<div fragment="header" layout:> Title is set individually To do.</div>
+<div fragment="contents" layout:>
+    <p> Below is the individual page </p>
+    <div id="hello-text"></div>
+    <!-- Individual page To verify that jquery-ui works correctly -->
+    <input
+            class
+                    ="datepicker"
+            type="text"/>
+    <script>
+
+        $('#hello-text').text('Hello SpringBoot from JQuery!!');
+        $('.datepicker').datepicker();
+        })
+
+    </script>
+</div>
+</body>
+</html>
