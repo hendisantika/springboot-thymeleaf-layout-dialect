@@ -25,7 +25,7 @@ public class HelloController {
         return "index";
     }
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "/home")
     public ModelAndView test(HttpServletResponse response) {
         return new ModelAndView("home");
     }
