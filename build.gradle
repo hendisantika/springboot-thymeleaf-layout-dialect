@@ -20,7 +20,7 @@ dependencies {
     developmentOnly('org.springframework.boot:spring-boot-devtools')
     compileOnly('org.projectlombok:lombok')
     implementation "org.thymeleaf:thymeleaf:3.1.5.RELEASE"
-    implementation "org.thymeleaf:thymeleaf-spring5:3.1.5.RELEASE"
+    implementation "org.thymeleaf:thymeleaf-spring5:3.1.6.RELEASE"
     implementation('nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:4.0.1')
     implementation('org.webjars:jquery:4.0.0')
     implementation('org.webjars:jquery-ui:1.14.2')
